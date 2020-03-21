@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 
 //Home Work 2
 
@@ -256,4 +255,4 @@
 //         console.log("xxxxxxxxxxxxxxxxxxxx");
 // }
 
->>>>>>> Stashed changes
+
