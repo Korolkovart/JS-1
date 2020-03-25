@@ -168,7 +168,7 @@
 //     a++;
 // }
 
-// // 2 les
+
 
 // let banan = {
 //     name: "Banan",
@@ -253,4 +253,5 @@
 //     case 20:
 //         console.log("xxxxxxxxxxxxxxxxxxxx");
 // }
+
 
