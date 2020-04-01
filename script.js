@@ -311,3 +311,36 @@
 // не разобрался как с помощью рекурсии сравнить и объект и массив с множеством значений внутри
 // Просьба подсказать
 
+//HW 5
+
+//1 les 
+// function getArray(){
+//     document.querySelectorAll('#video-title')
+//     const names = document.querySelectorAll('#video-title');
+//     const namesArray = [...names];
+//     const result = [];
+//     namesArray.forEach(function(item){
+//         result.push(item.innerHTML)
+//     })
+//     return result
+// }
+// getArray()
+
+
+
+
+
+//2 les
+// function getObjPeople(){
+//     let people = {};
+//     let names = document.querySelectorAll('.mates-list__mate-name-block');
+//         names.forEach(function(item){
+//             const name = item.innerHTML
+//             const url =  item.href
+//             people[name] = url
+//         })
+//     return people
+// }
+// getObjPeople()
+
+//chess in progress
