@@ -168,7 +168,7 @@
 //     a++;
 // }
 
-
+// // 2 les
 
 // let banan = {
 //     name: "Banan",
@@ -254,4 +254,60 @@
 //         console.log("xxxxxxxxxxxxxxxxxxxx");
 // }
 
+//Home Work 4
+
+//1 les
+
+// function Change(number){
+//     this.newObj = function(num) {
+//         if (0 < parseInt(num) && parseInt(num) < 1000){
+//             this.hundreds = parseInt(num/100);
+//             this.tens = parseInt((num-this.hundreds*100)/10);
+//             this.one = parseInt(num-this.tens*10-this.hundreds*100);
+//         } else {
+//             if(typeof(this.hundreds) != "undefined"){
+//                 delete this.hundreds;
+//                 delete this.tens;
+//                 delete this.one;
+//             }
+//         }
+//     }
+
+//     this.newObj(number);
+
+// }
+// //test
+// let firstTest = new Change(987);
+// console.log(firstTest)
+
+// let secondTest = new Change("hkhglhn");
+// console.log(secondTest)
+
+
+//2 les
+
+// function Fruit(color, form) {
+//     this.color = color;
+//     this.form = form;
+//     this.showFruit = function(){
+//         console.log(this.color + ' ' + this.form);
+//     };
+// }
+// let apple = new Fruit('зеленое', 'круглое');
+// let banan = new Fruit('желтый', 'длинный');
+
+// apple.showFruit();
+// banan.showFruit();
+
+//3 les
+
+// function comparison (a, b) {
+//     let result = false;
+  
+//     if (a.length === b.length) result = true;
+  
+//     return result
+//   }
+// не разобрался как с помощью рекурсии сравнить и объект и массив с множеством значений внутри
+// Просьба подсказать
 
